@@ -1,0 +1,70 @@
+.li {
+    font-size:20px;
+    color:white;
+    margin-bottom: 10px;
+    max-width: 500px;
+    height: 30px;
+    border: 1px solid teal;
+    padding: 10px;
+    border-radius: 20px;
+}
+.active {
+    text-decoration: line-through;
+    font-size:20px;
+    color:gray;
+    margin-bottom: 10px;
+    max-width: 500px;
+    height: 30px;
+    border: 1px solid teal;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.text {
+    overflow: hidden;
+    max-width: 450px;
+    min-width: 140px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.finish {
+    background-color: teal;
+}
+.circle:hover {
+    background-color: rgb(207, 206, 206);
+}
+.circleFinish {
+    width: 20px;
+    height: 20px;
+    background-color:teal;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.wrapper {
+    margin-left: 40px;
+}
+.white {
+    font-size: 24px;
+    color:white;
+    cursor: pointer;
+    margin-left: 300px;
+}
+.white:hover {
+    color:rgb(148, 103, 103);
+}
+.between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
